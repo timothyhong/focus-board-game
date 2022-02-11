@@ -1,9 +1,9 @@
 # Focus Game
 
 #### Overview
-Contains a Player class and a FocusGame class to play the abstract board game Focus/Domination. You can see the rules [here](https://en.wikipedia.org/wiki/Focus_(board_game)).
+Implementation of the abstract board game Focus/Domination. You can see the rules [here](https://en.wikipedia.org/wiki/Focus_(board_game)).
 
-The FocusGame class allows for 2-4 human players.
+Allows for 2-4 human players.
 
 The board looks like a checkerboard with three squares in each corner removed, hence forming 6X6 board with 1X4 extensions on each side (You can find the picture of the board [here](http://www.geekyhobbies.com/domination-aka-focus-board-game-review-and-rules/)). Depending on the number of players, the board is set up differently.
 
@@ -13,10 +13,6 @@ At the beginning of the game, a random player's piece is selected that determine
 - 2-4 human players with correct board set up and rules for number of players
 - Robust error checking
 - Achieve victory by capturing a user-specified number of pieces or through "domination"
-
-#### Upcoming Features
-- Graphical GUI
-- Computer players
 
 #### Playing the game:
 On a player’s turn they will make one move. They can either make a single move, a multiple move, or a reserve move.
